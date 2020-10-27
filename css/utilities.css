@@ -5,26 +5,29 @@
   --light-color: #f4f4f4;
   --text-primary: #fff;
   --text-secondary: #333;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
 }
 
-.bg-primary {
-  background-color: var(--primary-color);
-  color: var(--text-primary);
-}
-
-.bg-secondary {
-  background-color: var(--secondary-color);
-  color: var(--text-primary);
-}
-
-.bg-dark {
-  background-color: var(--dark-color);
-  color: var(--text-primary);
-}
-
-.bg-light {
+.alert {
   background-color: var(--light-color);
-  color: var(--text-secondary);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
 }
 
 .btn {
@@ -35,31 +38,6 @@
   color: var(--text-primary);
   border: none;
   border-radius: 5px;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  color: var(--text-primary);
-}
-
-.btn-secondary {
-  background-color: var(--secondary-color);
-  color: var(--text-primary);
-}
-
-.btn-dark {
-  background-color: var(--dark-color);
-  color: var(--text-primary);
-}
-
-.btn-light {
-  background-color: var(--light-color);
-  color: var(--text-secondary);
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
 }
 
 .btn:hover {
@@ -104,6 +82,69 @@
 
 .text-center {
   text-align: center;
+}
+
+/* Colors */
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: var(--text-primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-primary);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: var(--text-primary);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: var(--text-secondary);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-primary);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-primary);
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+  color: var(--text-primary);
+}
+
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--text-secondary);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
 }
 
 /* Text sizes  */
